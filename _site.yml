@@ -1,12 +1,18 @@
-name: "website"
-title: "The Azores Blog"
+name: "azoresio"
+title: "The Azores Blog Title"
 description: |
-  The Azores Blog
-output_dir: "_site"
+  The Azores Blog Description
+output_dir: "docs"
+creative_commons: CC BY-SA
+repository_url: https://github.com/azoresio/website
+base_url: https://azresio.github.io/website
 navbar:
+  search: false
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
