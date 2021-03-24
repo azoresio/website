@@ -1,5 +1,5 @@
 ---
-title: "The Azores Blog"
+title: "A title here"
 site: distill::distill_website
 listing: posts
 ---

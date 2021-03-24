@@ -1,5 +1,5 @@
 ---
-title: "About this blog"
+title: "Azores - Unity in Vision"
 description: |
   Some additional details about the blog
 ---
@@ -7,3 +7,7 @@ description: |
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+Azores is a place for free thinkers, creative minds, and challengers of the status quo. We recognize the chaos and complexity of big, global issues, and seek to explore them with humility, and data. We accept that neat, perfect solutions for 'transformational change' are mostly unavailable, and that imperfect, uncomfortable compromises are necessary on the quest for sustainability. We strive to create an inclusive community with a multitude of voices for positive and constructive exchange. 
+
+We believe that sanitation is an overlooked and underfunded tool without which there can be no public or environmental health. We share a vision of a vibrant, innovative, global sanitation economy, to unlock social, environmental and economic benefits for the world's most vulnerable populations and ecosystems. We keep our heads up and our eyes wide open for new ideas, new synergies, and new partners. 
