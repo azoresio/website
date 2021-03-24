@@ -3,16 +3,21 @@ title: "Azores - Unity in Vision"
 description: |
   The Azores Blog Description
 output_dir: "docs"
-creative_commons: CC BY-SA
-repository_url: https://github.com/azoresio/website
 base_url: https://azresio.github.io/website
 navbar:
+  logo: img/Azores_logo_UiV.png
   search: false
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Contributors"
+      href: contributors.html
+collections:
+  posts:
+    share: [twitter, linkedin]
+    citations: false
 output: 
   distill::distill_article:
     toc: true
