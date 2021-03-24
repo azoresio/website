@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>The Azores Blog Title</title>
+    <title>Azores - Unity in Vision</title>
     <link>https://azresio.github.io/website</link>
     <atom:link href="https://azresio.github.io/website/index.xml" rel="self" type="application/rss+xml"/>
     <description>The Azores Blog Description
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Welcome to The Azores Blog</title>
-      <dc:creator>Nora Jones</dc:creator>
-      <link>https://azresio.github.io/website/posts/welcome</link>
-      <description>Welcome to our new blog, The Azores Blog. We hope you enjoy 
-reading what we have to say!</description>
-      <guid>https://azresio.github.io/website/posts/welcome</guid>
-      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <title>Sewers and Seagulls</title>
+      <dc:creator>Anthony Kilbride</dc:creator>
+      <link>https://azresio.github.io/website/posts/2021-03-24-sewers-and-seagulls</link>
+      <description>A short description of the post.</description>
+      <category>category1</category>
+      <category>category2</category>
+      <guid>https://azresio.github.io/website/posts/2021-03-24-sewers-and-seagulls</guid>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://azresio.github.io/website/posts/2021-03-24-sewers-and-seagulls/img/ocean.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
