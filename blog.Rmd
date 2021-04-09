@@ -1,0 +1,4 @@
+---
+title: "The Azores Blog"
+listing: posts
+---
