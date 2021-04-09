@@ -1,5 +1,12 @@
 ---
-title: "The Azores Blog"
+title: ""
+image: "img/Azores_logo_UiV.png"
+links:
+  - label: Blog
+    url: blog.html
+  - label: Email
+    url: "anthony.kilbride@gmail.com"
+output:
+  postcards::jolla
 site: distill::distill_website
-listing: posts
 ---
