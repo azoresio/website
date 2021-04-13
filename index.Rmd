@@ -1,11 +1,14 @@
 ---
 title: ""
 image: "img/Azores_logo_UiV.png"
+theme: theme.css
 links:
+  - label: About
+    url: about.html
   - label: Blog
     url: blog.html
-  - label: Email
-    url: "anthony.kilbride@gmail.com"
+  - label: Contributors
+    url: contributors.html
 output:
   postcards::jolla
 site: distill::distill_website

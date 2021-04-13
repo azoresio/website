@@ -14,12 +14,12 @@ output:
     self_contained: false
 bibliography: 01-sewers-seagulls.bib
 citation_url: azores.io
-preview: img/ocean.jpg
+preview: img/giant-peach.jpeg
 ---
 
-```{r, echo=FALSE, preview=TRUE, fig.cap="Photo by [Anastasia Taioglou](https://unsplash.com/photos/CTivHyiTbFw)"}
+```{r, echo=FALSE, preview=TRUE, fig.cap="Image by Nancy Ekholm Burkert, no copyright infringement is intended. [Courtesy of Guardian News & Media Ltd.](https://www.theguardian.com/artanddesign/2019/aug/02/nancy-ekholm-burkerts-james-and-the-giant-peach)"}
 
-knitr::include_graphics("img/ocean.jpg")
+knitr::include_graphics("img/giant-peach.jpeg")
 
 ```
 
