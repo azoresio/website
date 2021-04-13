@@ -7,7 +7,16 @@
     <description>The Azores Blog Description
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>draft-post</title>
+      <dc:creator>Anthony Kilbride</dc:creator>
+      <link>https://azresio.github.io/website/posts/2021-04-13-draft-post</link>
+      <description>A short description of the post.</description>
+      <guid>https://azresio.github.io/website/posts/2021-04-13-draft-post</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://azresio.github.io/website/posts/2021-04-13-draft-post/img/ocean.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Sewers and Seagulls</title>
       <dc:creator>Anthony Kilbride</dc:creator>
