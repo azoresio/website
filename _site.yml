@@ -5,13 +5,12 @@ description: |
 output_dir: "docs"
 base_url: https://azresio.github.io/website
 navbar:
-  logo: img/Azores_logo_UiV.png
   search: false
   right:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
+    - text: "Blog"
+      href: blog.html
     - text: "Contributors"
       href: contributors.html
 collections:

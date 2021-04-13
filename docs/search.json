@@ -6,21 +6,28 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\nAzores is a place for free thinkers, creative minds, and challengers of the status quo. We recognize the chaos and complexity of big, global issues, and seek to explore them with humility, and data. We accept that neat, perfect solutions for ‘transformational change’ are mostly unavailable, and that imperfect, uncomfortable compromises are necessary on the quest for sustainability. We strive to create an inclusive community with a multitude of voices for positive and constructive exchange.\nWe believe that sanitation is an overlooked and underfunded tool without which there can be no public or environmental health. We share a vision of a vibrant, innovative, global sanitation economy, to unlock social, environmental and economic benefits for the world’s most vulnerable populations and ecosystems. We keep our heads up and our eyes wide open for new ideas, new synergies, and new partners.\n\n\n\n",
-      "last_modified": "2021-03-24T10:41:59+01:00"
+      "last_modified": "2021-04-13T20:12:57+02:00"
+    },
+    {
+      "path": "blog.html",
+      "title": "The Azores Blog",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-13T20:12:57+02:00"
     },
     {
       "path": "contributors.html",
       "title": "Contributors",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-03-24T10:41:59+01:00"
+      "last_modified": "2021-04-13T20:12:58+02:00"
     },
     {
       "path": "index.html",
-      "title": "The Azores Blog",
+      "title": "",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-03-24T10:42:00+01:00"
+      "contents": "\n\n          \n          \n          Azores - Unity in Vision\n          \n          \n          About\n          Blog\n          Contributors\n          ☰\n          \n          \n      \n        \n          \n            \n          \n          \n            \n              \n            \n            \n              \n            \n          \n\n          \n            \n              \n                  \n                    \n                      About\n                    \n                  \n                \n                                \n                  \n                    \n                      Blog\n                    \n                  \n                \n                                \n                  \n                    \n                      Contributors\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    About\n                  \n                \n                                \n                  \n                    Blog\n                  \n                \n                                \n                  \n                    Contributors\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-04-13T20:15:30+02:00"
     }
   ],
   "collections": ["posts/posts.json"]
