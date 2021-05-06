@@ -1,7 +1,7 @@
 ---
 title: "Azores - Unity in Vision"
 description: |
-  Some additional details about the blog
+  What is this all about?
 ---
 
 ```{r setup, include=FALSE}
