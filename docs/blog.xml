@@ -7,25 +7,30 @@
     <description>The Azores Blog Description
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>draft-post</title>
+      <title>Kentucky Fried Development</title>
       <dc:creator>Anthony Kilbride</dc:creator>
-      <link>https://azresio.github.io/website/posts/2021-04-13-draft-post</link>
-      <description>A short description of the post.</description>
-      <guid>https://azresio.github.io/website/posts/2021-04-13-draft-post</guid>
-      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://azresio.github.io/website/posts/2021-04-13-draft-post/img/ocean.jpg" medium="image" type="image/jpeg"/>
+      <link>https://azresio.github.io/website/posts/2021-05-06-kentucky-fried-development</link>
+      <description>The second Azores blog: A shamefully funny and brutally honest exposé of development aid. 
+(**WARNING:** This blog post may offend vegetarians.)</description>
+      <category>international development</category>
+      <category>development aid</category>
+      <category>planning</category>
+      <category>inclusion</category>
+      <guid>https://azresio.github.io/website/posts/2021-05-06-kentucky-fried-development</guid>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Sewers and Seagulls</title>
       <dc:creator>Anthony Kilbride</dc:creator>
       <link>https://azresio.github.io/website/posts/2021-03-24-sewers-and-seagulls</link>
-      <description>A short description of the post.</description>
-      <category>category1</category>
-      <category>category2</category>
+      <description>The first Azores blog: A raw, meandering, whimsical tale of one of sanitation's greatest conundrums: Should we build more sewers? Enjoy 😄</description>
+      <category>sewers</category>
+      <category>non-sewered sanitation</category>
+      <category>infrastructure</category>
       <guid>https://azresio.github.io/website/posts/2021-03-24-sewers-and-seagulls</guid>
-      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       <media:content url="https://azresio.github.io/website/posts/2021-03-24-sewers-and-seagulls/img/giant-peach.jpeg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
