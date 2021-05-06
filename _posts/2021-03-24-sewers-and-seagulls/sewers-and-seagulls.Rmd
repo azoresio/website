@@ -1,14 +1,15 @@
 ---
 title: "Sewers and Seagulls"
 description: |
-  A short description of the post.
+  The first Azores blog: A raw, meandering, whimsical tale of one of sanitation's greatest conundrums: Should we build more sewers? Enjoy `r emo::ji("smile")`
 author:
   - name: Anthony Kilbride
     url: https://www.linkedin.com/in/anthony-kilbride-9589367a/
 categories:
-    - category1
-    - category2
-date: 2021-03-24
+    - sewers
+    - non-sewered sanitation
+    - infrastructure
+date: 2021-05-15
 output:
   distill::distill_article:
     self_contained: false
@@ -38,23 +39,14 @@ Sewers are absolute marvels of civil engineering ingenuity: Temples of shite! Ho
 
 **2. No! of course he wouldn't. **
 
-<aside>
-You can add content here. 
-</aside>
+Sewerage that actually works is infrastructure for the privileged few. Non-functioning sewerage is more common; only 40%^[WHO/UNICEF JMP. https://washdata.org/data/household#!/dashboard/new. Accessed 2021-05-06.] of the world is connected to a sewer, but 80%^[United Nations World Water Development Report. https://en.unesco.org/themes/water-security/wwap/wwdr/2020. Accessed 2021-05-06] of wastewater discharged to the environment is untreated. In other words, having a sewer connection does not imply safe sanitation. Even more common is no sewerage at all, so-called 'non-sewered sanitation'; latrines and septic tanks. Then there are the billion people with access to neither sewered nor non-sewered sanitation; open defecation. These figures are our best estimates, but the reality is that we just don't know. Most cities don't have maps showing where there are latrines or septic tanks, and even London doesn't know where all of its sewers are. Even if we could locate all of these assets, we still don't know which ones are safe, and which ones leak. With the little data we do have, the prognosis is not good, with most sanitation systems globally protecting neither our environment nor our public health [@peal2020a]. We need more data, and we need long-term, institutionalized systems of data collection and analysis. 
 
-Sewerage that actually works is infrastructure for the privileged few. Non-functioning sewerage is more common; only [40%](https://washdata.org/data/household#!/dashboard/new) of the world is connected to a sewer, but 80%^[Citation as a footnote: https://en.unesco.org/themes/water-security/wwap/wwdr/2020] of wastewater discharged to the environment is untreated. In other words, having a sewer connection does not imply safe sanitation. Even more common is no sewerage at all, so-called 'non-sewered sanitation'; latrines and septic tanks. Then there are the billion people with access to neither sewered nor non-sewered sanitation; open defecation. These figures are our best estimates, but the reality is that we just don't know. Most cities don't have maps showing where there are latrines or septic tanks, and even London doesn't know where all of its sewers are. Even if we could locate all of these assets, we still don't know which ones are safe, and which ones leak. With the little data we do have, the prognosis is not good, with most sanitation systems globally protecting neither our environment nor our public health [@peal2020a]. We need more data, and we need long-term, institutionalized systems of data collection and analysis. 
+Sewers are prohibitively expensive to build and operate for most of the world's population. Attempts to implement sewerage in low-income countries usually end in failure; households don't connect because the existing alternative is cheaper; sewers block, crack and leak if they don't flow with water or if they carry 'other'^[BBC NEWS. Belgravia fatberg: 'Disgusting' mass cleared from sewer. https://www.bbc.com/news/uk-england-london-54735988. Accessed 2021-05-21] types of waste; and wastewater treatment infrastructure at the end of the sewer is too expensive and too complicated to operate and maintain. 
 
-Sewers are prohibitively expensive to build and operate for most of the world's population. Attempts to implement sewerage in low-income countries usually end in failure; households don't connect because the existing alternative is cheaper; sewers block, crack and leak if they don't flow with water or if they carry 'other'^[https://www.bbc.com/news/uk-england-london-54735988] types of waste; and wastewater treatment infrastructure at the end of the sewer is too expensive and too complicated to operate and maintain. 
-
-"But wait a minute!" I hear you cry.... "London isn't a low-income city, and Bazalgette's sewers have been working for over a hundred and fifty years". True that, I say. Also, London's new super sewer will only be used during heavy rainfall, to intercept diluted sewage spills to the river Thames, so more like a long storm attenuation tank than a sewer. "But why are we flushing our water into sewers with looming water scarcity? Isn't there another way?"^[http://www.bluegreenuk.com/freewater/tbge/References/The%20case%20against%20the%20Thames%20Tideway%20Tunnel.pdf]. Well indeed, water scarcity is something that even 'wet' countries like the UK will have to deal with, but the argument could be flipped on its head if the wastewater from the super sewer could be treated and reused in agriculture or for industry [@heggie2020]. 
+"But wait a minute!" I hear you cry.... "London isn't a low-income city, and Bazalgette's sewers have been working for over a hundred and fifty years". True that, I say. Also, London's new super sewer will only be used during heavy rainfall, to intercept diluted sewage spills to the river Thames, so more like a long storm attenuation tank than a sewer. "But why are we flushing our water into sewers with looming water scarcity? Isn't there another way?"^[Thames Blue Green Economy Group. THE CASE AGAINST THE THAMES TIDEWAY TUNNEL. http://www.bluegreenuk.com/freewater/tbge/References/The%20case%20against%20the%20Thames%20Tideway%20Tunnel.pdf. Accessed 2021-05-06]. Well indeed, water scarcity is something that even 'wet' countries like the UK will have to deal with, but the argument could be flipped on its head if the wastewater from the super sewer could be treated and reused in agriculture or for industry [@heggie2020]. 
 
 "So, what the hell is the point of this blog post?!" I hear myself think... Well, I suppose its to drive home the point that answering questions in simple forms belies the complexity and the nuances of the topic in a way which detracts from an open and humble search for solutions. The 'sewered v's non-sewered' debate which is now essential when considering new investments in sanitation infrastructure, must consider these complexities if is to contribute to informed and unbiased decision making. Will the super sewer provide London's people and its river with a future-proof solution? Only time will time. I for one hope that it will, but I also hope that the next mega-project required to address London's infrastructure needs, or those of any other city for that matter, will be one rooted in the principles of equity and inclusion, and will take more carbon out of the atmosphere, than puts it in. Perhaps, when we reach 2050 and we look back on a world which was cooler, this will be the main critique of our addiction to infrastructure; that we used too much concrete and steel, and the damage to our climate cannot be undone.
 
 So I offer a third response; 
 
 **3. Well obviously it depends, solutions are always context-specific. We need more data, more analysis, and an informed multi-stakeholder decision making platform. **
-
-
-## Acknowledgments {.appendix}
-
-This is a place to recognize people and institutions. It may also be a good place to acknowledge and cite software that makes your work possible. You can also add author contributions, briefly describing what each author did. 
