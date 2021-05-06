@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://azresio.github.io/website/blog.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -86,376 +85,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Azores - Unity in Vision: The Azores Blog</title>
+  <title>The Consultancy Conundrum</title>
+
+  <meta property="description" itemprop="description" content="The 3rd Azores blog: &#10;An exploration of the main pitfall of consultancies, &#10;and why humility is a good place to start the client-consultant relationship."/>
 
 
-
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-06-14"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-06-14"/>
+  <meta name="article:author" content="Anthony Kilbride"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Azores - Unity in Vision: The Azores Blog"/>
+  <meta property="og:title" content="The Consultancy Conundrum"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="The 3rd Azores blog: &#10;An exploration of the main pitfall of consultancies, &#10;and why humility is a good place to start the client-consultant relationship."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Azores - Unity in Vision"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Azores - Unity in Vision: The Azores Blog"/>
+  <meta property="twitter:title" content="The Consultancy Conundrum"/>
+  <meta property="twitter:description" content="The 3rd Azores blog: &#10;An exploration of the main pitfall of consultancies, &#10;and why humility is a good place to start the client-consultant relationship."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","listing"]}},"value":[{"type":"character","attributes":{},"value":["The Azores Blog"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","categories","date","output","draft","preview"]}},"value":[{"type":"character","attributes":{},"value":["The Consultancy Conundrum"]},{"type":"character","attributes":{},"value":["The 3rd Azores blog: \nAn exploration of the main pitfall of consultancies, \nand why humility is a good place to start the client-consultant relationship.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Anthony Kilbride"]},{"type":"character","attributes":{},"value":["https://www.linkedin.com/in/anthony-kilbride-9589367a/"]}]}]},{"type":"character","attributes":{},"value":["international development","consulting","principles"]},{"type":"character","attributes":{},"value":["2021-06-14"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["img/ocean.jpeg"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["img/ocean.jpg","the-consultancy-conundrum_files/anchor-4.2.2/anchor.min.js","the-consultancy-conundrum_files/bowser-1.9.3/bowser.min.js","the-consultancy-conundrum_files/distill-2.2.21/template.v2.js","the-consultancy-conundrum_files/header-attrs-2.7/header-attrs.js","the-consultancy-conundrum_files/jquery-1.11.3/jquery.min.js","the-consultancy-conundrum_files/popper-2.6.0/popper.min.js","the-consultancy-conundrum_files/tippy-6.2.7/tippy-bundle.umd.min.js","the-consultancy-conundrum_files/tippy-6.2.7/tippy-light-border.css","the-consultancy-conundrum_files/tippy-6.2.7/tippy.css","the-consultancy-conundrum_files/tippy-6.2.7/tippy.umd.min.js","the-consultancy-conundrum_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1771,310 +1433,83 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="the-consultancy-conundrum_files/header-attrs-2.7/header-attrs.js"></script>
+  <script src="the-consultancy-conundrum_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="the-consultancy-conundrum_files/popper-2.6.0/popper.min.js"></script>
+  <link href="the-consultancy-conundrum_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="the-consultancy-conundrum_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="the-consultancy-conundrum_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="the-consultancy-conundrum_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="the-consultancy-conundrum_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="the-consultancy-conundrum_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="the-consultancy-conundrum_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"The Azores Blog","authors":[]}
+{"title":"The Consultancy Conundrum","description":"The 3rd Azores blog: \nAn exploration of the main pitfall of consultancies, \nand why humility is a good place to start the client-consultant relationship.","authors":[{"author":"Anthony Kilbride","authorURL":"https://www.linkedin.com/in/anthony-kilbride-9589367a/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-14T00:00:00.000+02:00","citationText":"Kilbride, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Azores - Unity in Vision</a>
-</div>
-<div class="nav-right">
-<a href="about.html">About</a>
-<a href="blog.html">Blog</a>
-<a href="contributors.html">Contributors</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="The Azores Blog">The Azores Blog</h1>
-<a href="posts/2021-05-06-the-consultancy-conundrum/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["international development","consulting","principles"]}</script>
-<div class="metadata">
-<div class="publishedDate">June 13, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Anthony Kilbride</div>
-</div>
-</div>
-<div class="thumbnail"></div>
-<div class="description">
-<h2>The Consultancy Conundrum</h2>
-<div class="dt-tags">
-<div class="dt-tag">international development</div>
-<div class="dt-tag">consulting</div>
-<div class="dt-tag">principles</div>
-</div>
-<p>The 3rd Azores blog: 
-An exploration of the main pitfall of consultancies, 
-and why humility is a good place to start the client-consultant relationship.</p>
-</div>
-</a>
-<a href="posts/2021-05-06-kentucky-fried-development/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["international development","development aid","planning","inclusion"]}</script>
-<div class="metadata">
-<div class="publishedDate">May 29, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Anthony Kilbride</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Kentucky Fried Development</h2>
-<div class="dt-tags">
-<div class="dt-tag">international development</div>
-<div class="dt-tag">development aid</div>
-<div class="dt-tag">planning</div>
-<div class="dt-tag">inclusion</div>
-</div>
-<p>The second Azores blog: A shamefully funny and brutally honest exposé of development aid. 
-(**WARNING:** This blog post may offend vegetarians.)</p>
-</div>
-</a>
-<a href="posts/2021-03-24-sewers-and-seagulls/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["sewers","non-sewered sanitation","infrastructure"]}</script>
-<div class="metadata">
-<div class="publishedDate">May 15, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Anthony Kilbride</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2021-03-24-sewers-and-seagulls/img/giant-peach.jpeg"/>
-</div>
-<div class="description">
-<h2>Sewers and Seagulls</h2>
-<div class="dt-tags">
-<div class="dt-tag">sewers</div>
-<div class="dt-tag">non-sewered sanitation</div>
-<div class="dt-tag">infrastructure</div>
-</div>
-<p>The first Azores blog: A raw, meandering, whimsical tale of one of sanitation's greatest conundrums: Should we build more sewers? Enjoy 😄</p>
-</div>
-</a>
-</div>
-<div class="posts-sidebar">
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#category:articles">articles</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:consulting">consulting</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:development_aid">development aid</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:inclusion">inclusion</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:infrastructure">infrastructure</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:international_development">international development</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
-<a href="#category:non-sewered_sanitation">non-sewered sanitation</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:planning">planning</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:principles">principles</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:sewers">sewers</a>
-<span class="category-count">(1)</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>The Azores Blog</h1>
+<h1>The Consultancy Conundrum</h1>
 <!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt=tag">international development</div>
+<div class="dt=tag">consulting</div>
+<div class="dt=tag">principles</div>
+</div>
 <!--/radix_placeholder_categories-->
-
+<p><p>The 3rd Azores blog: An exploration of the main pitfall of consultancies, and why humility is a good place to start the client-consultant relationship.</p></p>
 </div>
 
+<div class="d-byline">
+  Anthony Kilbride <a href="https://www.linkedin.com/in/anthony-kilbride-9589367a/" class="uri">https://www.linkedin.com/in/anthony-kilbride-9589367a/</a> 
+  
+<br/>2021-06-14
+</div>
 
 <div class="d-article">
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-1"></span>
+<img src="img/ocean.jpg" alt="Placeholder image from here: https://unsplash.com/photos/CTivHyiTbFw" data-distill-preview=1 />
+<p class="caption">
+Figure 1: Placeholder image from here: <a href="https://unsplash.com/photos/CTivHyiTbFw" class="uri">https://unsplash.com/photos/CTivHyiTbFw</a>
+</p>
+</div>
+</div>
+<p>Did you hear the one about the consultant, the sheep farmer, and the sheepdog? Its a cracker! The butt of the joke is the consultant (obviously!), the joke’s message being that consultants don’t know what they’re talking about and offer useless advice. Well, having been a consultant for the best part of 20 years, I feel the need to retort by saying; i) I really wish I gave a career in sheep farming more serious consideration; and ii) if the sheepfarmer didn’t ask for the consultant, where’s the client who hired him?</p>
+<p>The joke addresses well the paradigm of the WASH consultant hired by the client in international development on behalf of the local partner (the sheep farmer) and the joke’s outcome speaks to the mountain of frustration between all of these parties. If we define frustration as ‘the prevention of the progress, success, or fulfillment of something’ and we look at global collective efforts to achieve SDG 6.2 (universal safe sanitation), its no cognitive leap to see why the ‘sanitation space’ is a frustrating place to be. Consultants don’t have the monopoly on this frustration, nor do they need to be its chief architect, but there’s something about the transient, peripheral and expendable nature of consultants that makes us sometimes conveniently placed to absorb the brunt of the sector’s frustrations. Having ‘thick skin’, and being able to compartmentalize work &amp; life (‘don’t take it personally’) become therefore, necessary traits for passionate consultants. Those who work without passion, are likely blissfully unaware of these frustrations, and the inherent inefficiencies which they represent. (IMAGE - Head buried in sand)</p>
+<p>When a team lacks the skills and experience to make a decision, it often hires a consultant to help. Consultants add discrete, quantifiable value to projects, thus enabling them to move forward, overcome obstacles, or improve performance. However, the assertion that consultancies deliver value is not a given. Indeed, consultancies may sometimes seem to create more obstacles or set projects back by the identification of issues which had previously been unidentified, or they may simply “not deliver”. There is therefore great scope for consultancies to deliver frustration and dissatisfaction, before any added value may be perceived.</p>
+<p>If we accept that consultancies have an important role in achieving SDG 6.2, and that the global WASH sector as a whole needs to change the way it delivers sustainable WASH services, then it follows that consultancies, including the activities of both client and consultant, must also change: But how? How can consultancies improve so that they are more effective and are executed with greater efficiency? What concrete steps can be taken by client and consultant to ensure that consultancies add more value with less frustration? How can consultants have greater impact in delivering City-Wide Inclusive Sanitation (CWIS)? To explore these questions, I present here, in no particular order of relevancy, a non-exhaustive list of 6 recommendations for clients and consultants involved in CWIS, which I hope will be enjoyed by sheep and sheepdogs alike:</p>
+<h2 id="be-human.-be-humble.-flex">1) Be human. Be humble. Flex!</h2>
+<p>Humility is a powerful point of departure for both consultant and client. Yes you (you the client or you the consultant) may be the best thing since sliced bread with a trail of accolades and glowing references coming out of your ears, but this is a new problem, in a new place, with new people, so you (you the client or you the consultant) can’t possibly have ‘the right answer/approach’ until you’ve taken the time to learn. So be human, be humble, and recognize the courage that takes. Humility begins with crafting the consultancy starting block, the Terms of Reference (ToR), in a way that recognizes the step into the unknown. Prescriptive, rigid, dogmatic ToRs do not satisfy this need. The participative exploration of options leading to clean cities with inclusive safe sanitation requires an open mind and a humble approach. Humility allows the mind to drink in the myriad voices, perspectives, stories, and data, which must all be sought and synergized, in order to achieve unity in vision, and a high quality of decisions and actions. A well crafted ToR is where good performance starts. Therefore, the crafting process deserves the creative attention of both consultant and client in order to harness the knowledge and power of each: The best ToRs are co-created.</p>
+<p>Including a ToR co-creation phase (similar to drafting the inception report) need not require a massive shift in procurement rules. CWIS requires innovation; a fast and flexible process with frequent pivoting. A CWIS consultancy is no different. Opportunities emerge from the chaos of unsafe and non-resilient sanitation systems, they shine through the voices, perspectives, stories, and data. In a world of increasing risks and challenges, good opportunities are like unicorn droppings - pounce on them! Alas, if only a consultant’s life was thus. Many consultancies are procured and managed in such a way that prevents seizing opportunities, that prevents taking risks. Inflexible and risk-averse ToRs damage consultant and client alike, but impact is the real casualty. Co-created, flexible ToRs with scheduled review phase gates allow the search for opportunities over the life of the consultancy. Think about the repercussions the next time you put pen to paper; don’t draft the ToR, craft the ToR!</p>
+<h2 id="honor-the-partnership-communicate">2) Honor the partnership: Communicate!</h2>
+<p>A consultancy contract is a partnership between consultant and client and as such, it lives and dies by its communication. Participative, co-created ToRs obviously make high demands upon this communication, but if done properly, will pay dividends. Nurture a culture of mutual respect between Consultant and Client and recognize that both parties have an equal role in delivering success. In summary; please Mr. / Mrs. Client: Take the time to communicate, be available for questions and discussion, and don’t expect to be satisfied if your final words at the consultancy kick-off meeting are “see you again in 6 months with the final report”. (Yes, I actually have heard that!).</p>
+<h2 id="embrace-client-diversity">3) Embrace client diversity!</h2>
+<p>Accepting that the consultancy is a vehicle to search for solutions, with a driver (consultant/client) a co-driver (client/consultant) and any number of navigators, back-seat drivers, passengers, onlookers, traffic police and mechanics, the consultancy vehicle can be a busy space with many different perspectives. Embrace that diversity! And use the consultant’s awareness of multiple angles to facilitate and convene a multi-faceted discourse. Usually a consultancy has at least 2 clients; the ‘contractual client’ with whom the consultant signs the contract and to whom the consultant delivers the work; and the ‘operational client’ who is the real beneficiary of the consultancy’s outcomes and whose system must live with them. A CWIS ‘contractual client’ is usually an international development partner (like the World Bank) whereas the ‘operational client’ may be the local utility, local authority, or national ministry responsible for sanitation in the project area, or all of the above. If the initial ToR has been co-created by both clients (lets call this scenario ‘a perfect world’) then the expectations and desires of both can be aligned. If the ToR has not been co-created by both clients, then there has been no local involvement and there can be expected little local ownership; there may be trouble! As a consultant, establishing the level of local involvement when the ToR was crafted is good practice, and gives a useful indication of, and ability to anticipate, the challenges ahead.</p>
+<h2 id="squeeze-the-juices">4) Squeeze the juices!</h2>
+<p>Like the entrepreneur who is taught the good business practice of ‘sweating your assets’, clients need to ‘squeeze the juices’ of the consultant’s knowledge, and share those juices amongst those who can benefit. This is even more necessary for the consultant who has physically crossed the globe to get to the project area. With a carbon footprint that big, they had better plant some serious wisdom saplings! Admittedly this is more of a challenge when remote working, but not impossible. Attitude (that’s you the client or you the consultant) will determine how much and how effective the juice squeezing, so only choose partners (that’s you the client or you the consultant) with the right attitude; one which demands capacity building to be hard-wired into the consultancy. Note that ‘squeezing the juices’ of knowledge does not mean driving the consultant into the ground with unfair demands and unfair working conditions, but it does mean being creative and flexible about what the expert can deliver. For example; demand open dissemination of deliverables (or at least the key outcomes) in an interactive forum which honors the time inputs of the local stakeholders who contributed to the consultancy (and choose consultants who have the didactic communications skills to make this happen); team the consultant up with local stakeholders or local consultants, and include time allowance for work shadowing. Finally, recognize that CWIS is fundamentally about delivering inclusive, safe sanitation services and not about generating long reports. Reports are important, and report-writing is an essential skill for consultants to master, but unless the report’s paper is sufficiently soft and absorbent and can be applied directly by those in need, a report will never be as effective as time spent building the capacity of local stakeholders. Reports are not the real juice. People are the real juice.</p>
+<h2 id="build-in-accountability.">5) Build in accountability.</h2>
+<p>As I searched for ‘the one about the consultant, the sheep farmer, and the sheepdog’, I stumbled upon another joke which irked me; ‘Things you’ll never hear from a consultant; “How about paying us based on the success of the project?”. Hah, hah, yeuch! I don’t mind admitting to a penchant for dark humor, but cynicism like this I find too much to bear. Whether engaged for a day or for a year, a consultancy has the potential for massive impact. CWIS consultants who deliver positive impact and deliver high quality work should aim to be forgotten about as soon as their work is over. Their light touch, behind the scenes maneuvering is there to facilitate the real physical work of service providers within the local system: The objective is to deliver CWIS, consultancies are just ’mini-pushes’ along the way. The consultants who are remembered are more likely to be those who deliver negative impact; the sewage works design with faulty hydraulics; the rainwater harvesting scheme which ignored the dry season; the obsolete fleet of desludging trucks which cannot service dry pit latrines; the local stakeholders who feel excluded and marginalized by ‘yet another consultancy’; etc. etc. Again, recognise that both consultant and client have an equal role in delivering success, and use the opportunity to build in accountability to the technical assistance program. How this is done for consultants is a real challenge, and the subject of another Azores blog, but all parties must be held to account. Cynical, wasteful, unaccountable consultancies should be consigned to the history books.</p>
+<h2 id="recognize-the-trade-off-between-time-and-accuracy.">6) Recognize the trade-off between time and accuracy.</h2>
+<p>Whether being asked for designs or cost estimates or nuanced arguments, accuracy takes time. What a consultant can deliver in 5 days will be different to the same delivery tasked in 10 days, 20 days, 100 days… Its a no-brainer right? but it happens all the time: Unrealistic demands made in too short a timeframe. The consultant’s proposal is a great example of this; usually ‘rushed out the door’ in order to meet the deadline, and often completed late at night whilst juggling other ongoing work (a well measured equal distribution of humility and a ToR co-creation process can help here, see point 1). There is a direct and proportional correlation between the time required to deliver, and the accuracy (quality) of that deliverable. Providing accurate estimations of time and quality for unique outputs (most consultancy outputs are unique, every SFD is different) is a challenge in itself. So be realistic, be honest, be kind. By all means squeeze the consultant’s juices; but don’t squeeze the consultant’s other parts.</p>
+<aside>
+SFD is short for Shit-Flow-Diagram. Learn more here: <a href="https://sfd.susana.org/" class="uri">https://sfd.susana.org/</a>
+</aside>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
