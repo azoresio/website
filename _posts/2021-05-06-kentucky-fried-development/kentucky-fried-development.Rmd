@@ -17,7 +17,7 @@ output:
     self_contained: false
 draft: false
 citation_url: azores.io
-preview: img/peter-morgan.jpeg
+preview: img/peter-morgan.jpg
 ---
 
 ```{r, echo=FALSE, preview=TRUE, fig.cap="With Peter Morgan (Father of the Arborloo) in Johanesberg airport: Organic chicken."}

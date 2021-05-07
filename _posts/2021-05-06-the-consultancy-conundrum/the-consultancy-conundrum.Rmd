@@ -16,7 +16,7 @@ output:
   distill::distill_article:
     self_contained: false
 draft: false
-preview: img/ocean.jpeg
+preview: img/ocean.jpg
 ---
 
 ```{r, echo=FALSE, preview=TRUE, fig.cap="Placeholder image from here: https://unsplash.com/photos/CTivHyiTbFw"}
@@ -26,7 +26,7 @@ knitr::include_graphics("img/ocean.jpg")
 ```
 
 
-Did you hear the one about the consultant, the sheep farmer, and the sheepdog? Its a cracker! The butt of the joke is the consultant (obviously!), the joke's message being that consultants don't know what they're talking about and offer useless advice. Well, having been a consultant for the best part of 20 years, I feel the need to retort by saying; i) I really wish I gave a career in sheep farming more serious consideration; and ii) if the sheepfarmer didn't ask for the consultant, where's the client who hired him? 
+Did you hear the one about the consultant, the sheep farmer, and the sheepdog? Its a cracker! The butt of the joke^[Source: https://news.ycombinator.com/item?id=567237] is the consultant (obviously!), the joke's message being that consultants don't know what they're talking about and offer useless advice. Well, having been a consultant for the best part of 20 years, I feel the need to retort by saying; i) I really wish I gave a career in sheep farming more serious consideration; and ii) if the sheepfarmer didn't ask for the consultant, where's the client who hired him? 
 
 The joke addresses well the paradigm of the WASH consultant hired by the client in international development on behalf of the local partner (the sheep farmer) and the joke's outcome speaks to the mountain of frustration between all of these parties. If we define frustration as 'the prevention of the progress, success, or fulfillment of something' and we look at global collective efforts to achieve SDG 6.2 (universal safe sanitation), its no cognitive leap to see why the 'sanitation space' is a frustrating place to be. Consultants don't have the monopoly on this frustration, nor do they need to be its chief architect, but there's something about the transient, peripheral and expendable nature of consultants that makes us sometimes conveniently placed to absorb the brunt of the sector's frustrations. Having 'thick skin', and being able to compartmentalize work & life ('don't take it personally') become therefore, necessary traits for passionate consultants. Those who work without passion, are likely blissfully unaware of these frustrations, and the inherent inefficiencies which they represent. (IMAGE - Head buried in sand)
 

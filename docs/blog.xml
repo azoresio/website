@@ -7,7 +7,7 @@
     <description>The Azores Blog Description
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>The Consultancy Conundrum</title>
       <dc:creator>Anthony Kilbride</dc:creator>
@@ -19,7 +19,8 @@ and why humility is a good place to start the client-consultant relationship.</d
       <category>consulting</category>
       <category>principles</category>
       <guid>https://azresio.github.io/website/posts/2021-05-06-the-consultancy-conundrum</guid>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://azresio.github.io/website/posts/2021-05-06-the-consultancy-conundrum/img/ocean.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Kentucky Fried Development</title>
@@ -32,7 +33,8 @@ and why humility is a good place to start the client-consultant relationship.</d
       <category>planning</category>
       <category>inclusion</category>
       <guid>https://azresio.github.io/website/posts/2021-05-06-kentucky-fried-development</guid>
-      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://azresio.github.io/website/posts/2021-05-06-kentucky-fried-development/img/peter-morgan.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Sewers and Seagulls</title>
