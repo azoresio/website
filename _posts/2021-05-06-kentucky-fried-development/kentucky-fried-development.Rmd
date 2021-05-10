@@ -1,14 +1,13 @@
 ---
 title: "Kentucky Fried Development"
 description: |
-  The second Azores blog: A shamefully funny and brutally honest exposé of development aid. 
-  (**WARNING:** This blog post may offend vegetarians.)
+  The second Azores blog: 
+  A shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians.)
 author:
   - name: Anthony Kilbride
     url: https://www.linkedin.com/in/anthony-kilbride-9589367a/
 categories:
     - international development
-    - development aid
     - planning
     - inclusion
 date: 2021-05-31

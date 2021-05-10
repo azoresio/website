@@ -12,7 +12,7 @@
       <title>The Consultancy Conundrum</title>
       <dc:creator>Anthony Kilbride</dc:creator>
       <link>https://azresio.github.io/website/posts/2021-05-06-the-consultancy-conundrum</link>
-      <description>The 3rd Azores blog: 
+      <description>The third Azores blog: 
 An exploration of the main pitfall of consultancies, 
 and why humility is a good place to start the client-consultant relationship.</description>
       <category>international development</category>
@@ -26,10 +26,9 @@ and why humility is a good place to start the client-consultant relationship.</d
       <title>Kentucky Fried Development</title>
       <dc:creator>Anthony Kilbride</dc:creator>
       <link>https://azresio.github.io/website/posts/2021-05-06-kentucky-fried-development</link>
-      <description>The second Azores blog: A shamefully funny and brutally honest exposé of development aid. 
-(**WARNING:** This blog post may offend vegetarians.)</description>
+      <description>The second Azores blog: 
+A shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians.)</description>
       <category>international development</category>
-      <category>development aid</category>
       <category>planning</category>
       <category>inclusion</category>
       <guid>https://azresio.github.io/website/posts/2021-05-06-kentucky-fried-development</guid>
@@ -45,7 +44,7 @@ and why humility is a good place to start the client-consultant relationship.</d
       <category>non-sewered sanitation</category>
       <category>infrastructure</category>
       <guid>https://azresio.github.io/website/posts/2021-03-24-sewers-and-seagulls</guid>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       <media:content url="https://azresio.github.io/website/posts/2021-03-24-sewers-and-seagulls/img/giant-peach.jpeg" medium="image" type="image/jpeg"/>
     </item>
   </channel>

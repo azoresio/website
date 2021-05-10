@@ -1,7 +1,7 @@
 ---
 title: "The Consultancy Conundrum"
 description: |
-  The 3rd Azores blog: 
+  The third Azores blog: 
   An exploration of the main pitfall of consultancies, 
   and why humility is a good place to start the client-consultant relationship.
 author:
