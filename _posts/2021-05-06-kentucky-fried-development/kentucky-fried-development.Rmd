@@ -14,10 +14,13 @@ date: 2021-05-31
 output:
   distill::distill_article:
     self_contained: false
-draft: false
+draft: true
 citation_url: azores.io
 preview: img/peter-morgan.jpg
 ---
+
+<script async defer data-domain="azores.io" src="https://plausible.io/js/plausible.js"></script>
+
 
 ```{r, echo=FALSE, preview=TRUE, fig.cap="With Peter Morgan (Father of the Arborloo) in Johanesberg airport: Organic chicken."}
 

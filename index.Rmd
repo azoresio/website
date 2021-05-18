@@ -13,3 +13,5 @@ output:
   postcards::jolla
 site: distill::distill_website
 ---
+
+<script async defer data-domain="azores.io" src="https://plausible.io/js/plausible.js"></script>

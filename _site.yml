@@ -1,9 +1,9 @@
 name: "azoresio"
 title: "Azores - Unity in Vision"
 description: |
-  The Azores Blog Description
+  The Azores Blog
 output_dir: "docs"
-base_url: https://azresio.github.io/website
+base_url: https://www.azores.io
 navbar:
   search: false
   right:
@@ -13,10 +13,13 @@ navbar:
       href: blog.html
     - text: "Contributors"
       href: contributors.html
+    - icon: fa fa-rss
+      href: blog.xml
 collections:
   posts:
     share: [twitter, linkedin]
     citations: false
+    subscribe: _subscribe.html
 theme: theme.css
 output: 
   distill::distill_article:

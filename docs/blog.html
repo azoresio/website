@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://azresio.github.io/website/blog.xml" />
+  <link rel="alternate" type="application/rss+xml" href="https://www.azores.io/blog.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -2128,6 +2128,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="about.html">About</a>
 <a href="blog.html">Blog</a>
 <a href="contributors.html">Contributors</a>
+<a href="blog.xml">
+<i class="fa fa-rss" aria-hidden="true"></i>
+</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2270,61 +2273,16 @@ function init_posts_list() {
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="The Azores Blog">The Azores Blog</h1>
-<a href="posts/2021-05-06-the-consultancy-conundrum/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["international development","consulting","principles"]}</script>
-<div class="metadata">
-<div class="publishedDate">June 14, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Anthony Kilbride</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2021-05-06-the-consultancy-conundrum/img/ocean.jpg"/>
-</div>
-<div class="description">
-<h2>The Consultancy Conundrum</h2>
-<div class="dt-tags">
-<div class="dt-tag">international development</div>
-<div class="dt-tag">consulting</div>
-<div class="dt-tag">principles</div>
-</div>
-<p>The third Azores blog: 
-An exploration of the main pitfall of consultancies, 
-and why humility is a good place to start the client-consultant relationship.</p>
-</div>
-</a>
-<a href="posts/2021-05-06-kentucky-fried-development/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["international development","planning","inclusion"]}</script>
-<div class="metadata">
-<div class="publishedDate">May 31, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Anthony Kilbride</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2021-05-06-kentucky-fried-development/img/peter-morgan.jpg"/>
-</div>
-<div class="description">
-<h2>Kentucky Fried Development</h2>
-<div class="dt-tags">
-<div class="dt-tag">international development</div>
-<div class="dt-tag">planning</div>
-<div class="dt-tag">inclusion</div>
-</div>
-<p>The second Azores blog: 
-A shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians.)</p>
-</div>
-</a>
-<a href="posts/2021-03-24-sewers-and-seagulls/" class="post-preview">
+<a href="posts/sewers-and-seagulls/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["sewers","non-sewered sanitation","infrastructure"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 17, 2021</div>
+<div class="publishedDate">May 19, 2021</div>
 <div class="dt-authors">
 <div class="dt-author">Anthony Kilbride</div>
 </div>
 </div>
 <div class="thumbnail">
-<img src="posts/2021-03-24-sewers-and-seagulls/img/giant-peach.jpeg"/>
+<img src="posts/sewers-and-seagulls/img/giant-peach.jpeg"/>
 </div>
 <div class="description">
 <h2>Sewers and Seagulls</h2>
@@ -2338,19 +2296,22 @@ A shamefully funny and brutally honest exposé of development aid. WARNING: This
 </a>
 </div>
 <div class="posts-sidebar">
+<div class="sidebar-section subscribe">
+<h3>Subscribe</h3>
+<form method='post' action='https://blogtrottr.com'>
+  <p>Enjoy this blog? Get notified of new posts via email:</p>
+  <input type='text' name='btr_email' />
+  <input type='hidden' name='btr_url'
+         value='https://www.azores.io/blog.xml'/>
+  <input type='hidden' name='schedule_type' value='0' />
+  <input type='submit' value='Subscribe' />
+</form>
+</div>
 <div class="sidebar-section categories">
 <h3>Categories</h3>
 <ul>
 <li>
 <a href="#category:articles">articles</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:consulting">consulting</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:inclusion">inclusion</a>
 <span class="category-count">(1)</span>
 </li>
 <li>
@@ -2358,19 +2319,7 @@ A shamefully funny and brutally honest exposé of development aid. WARNING: This
 <span class="category-count">(1)</span>
 </li>
 <li>
-<a href="#category:international_development">international development</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
 <a href="#category:non-sewered_sanitation">non-sewered sanitation</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:planning">planning</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:principles">principles</a>
 <span class="category-count">(1)</span>
 </li>
 <li>
@@ -2395,6 +2344,7 @@ A shamefully funny and brutally honest exposé of development aid. WARNING: This
 
 
 <div class="d-article">
+<script async defer data-domain="azores.io" src="https://plausible.io/js/plausible.js"></script>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

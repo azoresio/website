@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://azresio.github.io/website/about.html</loc>
-    <lastmod>2021-05-06T16:43:02+02:00</lastmod>
+    <loc>https://www.azores.io/about.html</loc>
+    <lastmod>2021-05-18T12:03:40+02:00</lastmod>
   </url>
   <url>
-    <loc>https://azresio.github.io/website/blog.html</loc>
-    <lastmod>2021-04-13T20:19:29+02:00</lastmod>
+    <loc>https://www.azores.io/blog.html</loc>
+    <lastmod>2021-05-18T12:03:33+02:00</lastmod>
   </url>
   <url>
-    <loc>https://azresio.github.io/website/code_of_conduct.html</loc>
+    <loc>https://www.azores.io/code_of_conduct.html</loc>
     <lastmod>2021-05-06T16:48:15+02:00</lastmod>
   </url>
   <url>
-    <loc>https://azresio.github.io/website/contributors.html</loc>
-    <lastmod>2021-05-06T16:49:51+02:00</lastmod>
+    <loc>https://www.azores.io/contributors.html</loc>
+    <lastmod>2021-05-18T12:03:50+02:00</lastmod>
   </url>
   <url>
-    <loc>https://azresio.github.io/website/</loc>
-    <lastmod>2021-04-13T20:19:29+02:00</lastmod>
+    <loc>https://www.azores.io/</loc>
+    <lastmod>2021-05-18T12:03:26+02:00</lastmod>
   </url>
   <url>
-    <loc>https://azresio.github.io/website/license.html</loc>
+    <loc>https://www.azores.io/license.html</loc>
     <lastmod>2021-05-06T16:47:08+02:00</lastmod>
   </url>
   <url>
-    <loc>https://azresio.github.io/website/posts/2021-05-06-the-consultancy-conundrum/</loc>
-    <lastmod>2021-05-10T15:52:39+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://azresio.github.io/website/posts/2021-05-06-kentucky-fried-development/</loc>
-    <lastmod>2021-05-10T15:51:59+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://azresio.github.io/website/posts/2021-03-24-sewers-and-seagulls/</loc>
-    <lastmod>2021-05-10T15:28:57+02:00</lastmod>
+    <loc>https://www.azores.io/posts/sewers-and-seagulls/</loc>
+    <lastmod>2021-05-18T12:31:40+02:00</lastmod>
   </url>
 </urlset>

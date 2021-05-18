@@ -4,6 +4,8 @@ description: |
   What is this all about?
 ---
 
+<script async defer data-domain="azores.io" src="https://plausible.io/js/plausible.js"></script>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```

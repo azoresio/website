@@ -16,9 +16,11 @@ output:
   distill::distill_article:
     self_contained: false
     toc: true
-draft: false
+draft: true
 preview: img/ocean.jpg
 ---
+
+<script async defer data-domain="azores.io" src="https://plausible.io/js/plausible.js"></script>
 
 ```{r, echo=FALSE, preview=TRUE, fig.cap="Placeholder image from here: https://unsplash.com/photos/CTivHyiTbFw"}
 
