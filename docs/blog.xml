@@ -7,7 +7,20 @@
     <description>The Azores Blog
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Kentucky Fried Development</title>
+      <dc:creator>Anthony Kilbride</dc:creator>
+      <link>https://www.azores.io/posts/kentucky-fried-development</link>
+      <description>The second Azores blog: 
+A shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians.</description>
+      <category>international development</category>
+      <category>Haiti</category>
+      <category>failure</category>
+      <guid>https://www.azores.io/posts/kentucky-fried-development</guid>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://www.azores.io/posts/kentucky-fried-development/img/peter-morgan.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Sewers and Seagulls</title>
       <dc:creator>Anthony Kilbride</dc:creator>
