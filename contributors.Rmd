@@ -11,3 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 Our partners, individuals or institutions, are aligned with our values of inclusion, local ownership, efficiency and integrity. 
 
 Contributions of all kinds are welcome. By offering a contribution, you agree to abide by our [Code of Conduct](https://github.com/azoresio/website/blob/main/code_of_conduct.md) and that your work may be made available under the terms of our [license](https://github.com/azoresio/website/blob/main/license.md).
+
+Thanks to:
+
+- [Anthony Kilbride](https://www.linkedin.com/in/anthony-kilbride-9589367a/) (Author, Founder)
+- [Lars Schöbitz](https://www.lse.de/) (Web Development, Reviewer)
