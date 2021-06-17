@@ -22,7 +22,7 @@ preview: img/image-comic.png
 
 <script async defer data-domain="azores.io" src="https://plausible.io/js/plausible.js"></script>
 
-```{r, echo=FALSE, preview=TRUE, fig.cap="Add a figure caption."}
+```{r, echo=FALSE, preview=TRUE, fig.cap="The CWIS consultant - A ‘Jack of all trades’."}
 
 knitr::include_graphics("img/image-comic.png")
 
