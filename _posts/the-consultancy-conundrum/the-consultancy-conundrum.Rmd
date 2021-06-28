@@ -17,6 +17,7 @@ output:
     self_contained: false
     toc: true
 draft: false
+citation_url: https://www.azores.io/posts/the-consultancy-conundrum/
 preview: img/image-comic.png
 ---
 

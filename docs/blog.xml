@@ -7,7 +7,20 @@
     <description>The Azores Blog
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>WTF!? (Waste.Treatment.Failing.)</title>
+      <dc:creator>Anthony Kilbride</dc:creator>
+      <link>https://www.azores.io/posts/wtf</link>
+      <description>The 4th Azores blog: 
+Why is waste treatment infrastructure failing in Low- and Middle-income Countries (LMICs)?</description>
+      <category>International development</category>
+      <category>Waste treatment</category>
+      <category>Failure</category>
+      <guid>https://www.azores.io/posts/wtf</guid>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://www.azores.io/posts/wtf/img/wtf-img.png" medium="image" type="image/png" width="864" height="648"/>
+    </item>
     <item>
       <title>The Consultancy Conundrum</title>
       <dc:creator>Anthony Kilbride</dc:creator>
