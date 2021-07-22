@@ -7,7 +7,20 @@
     <description>The Azores Blog
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Confessions of a serial nutrient recycler</title>
+      <dc:creator>Anthony Kilbride</dc:creator>
+      <link>https://www.azores.io/posts/confessions-nutrient-recycler</link>
+      <description>The 5th Azores blog: 
+I am peeing on trees and bushes, are you too?</description>
+      <category>Waste treatment</category>
+      <category>Resource Recovery</category>
+      <category>EkoLakay</category>
+      <guid>https://www.azores.io/posts/confessions-nutrient-recycler</guid>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://www.azores.io/posts/confessions-nutrient-recycler/img/wolf-of-wall-street.png" medium="image" type="image/png" width="432" height="243"/>
+    </item>
     <item>
       <title>WTF!? (Waste.Treatment.Failing.)</title>
       <dc:creator>Anthony Kilbride</dc:creator>
