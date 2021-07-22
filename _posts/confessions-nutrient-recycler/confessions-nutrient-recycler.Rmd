@@ -8,8 +8,8 @@ author:
     url: https://www.linkedin.com/in/anthony-kilbride-9589367a/
 date: 2021-07-22
 categories:
-    - Waste treatment
-    - Resource Recovery
+    - waste treatment
+    - resource recovery
     - EkoLakay
 output:
   distill::distill_article:
@@ -23,7 +23,7 @@ preview: img/wolf-of-wall-street.png
 
 <script async defer data-domain="azores.io" src="https://plausible.io/js/plausible.js"></script>
 
-```{r, echo=FALSE, preview=TRUE, fig.cap="Image from the movie ‘Wolf of Wall Street’ courtesy of Paramount Pictures. https://www.ft.com/content/4b67b618-deb4-11e9-b112-9624ec9edc59"}
+```{r, echo=FALSE, preview=TRUE, fig.cap="Image from the movie ‘Wolf of Wall Street’ courtesy of Paramount Pictures. https://www.ft.com/content/4b67b618-deb4-11e9-b112-9624ec9edc59", out.width="100%"}
 
 knitr::include_graphics("img/wolf-of-wall-street.png")
 

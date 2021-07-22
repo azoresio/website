@@ -8,9 +8,9 @@ author:
     url: https://www.linkedin.com/in/anthony-kilbride-9589367a/
 date: 2021-06-30
 categories:
-    - International development
-    - Waste treatment
-    - Failure
+    - international development
+    - waste treatment
+    - failure
 output:
   distill::distill_article:
     self_contained: false
