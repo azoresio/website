@@ -66,7 +66,7 @@ knitr::include_graphics("img/ekolakay-toilet.jpg")
 
 ```
 
-Imagine if your toilet technology and local sanitation service provider were transformed into an ecosan, container-based sanitation (CBS) solution; what would be the biggest obstacle; providing the service (logistics, engineering, regulation, finance… ) or changing behaviour so that users accept a different kind of toilet interface (one where they may see more poop than they saw in a WC)? And what comes first; behaviour change or a new sanitation service? 
+_Imagine if your toilet technology and local sanitation service provider were transformed into an ecosan, container-based sanitation (CBS) solution; what would be the biggest obstacle; providing the service (logistics, engineering, regulation, finance… ) or changing behaviour so that users accept a different kind of toilet interface (one where they may see more poop than they saw in a WC)? And what comes first; behaviour change or a new sanitation service?_
 
 ## Tale 2: The Wolf of Wastewater Treatment 
 
@@ -74,8 +74,6 @@ In the height of the swinging naughties, when I was at the peak of my powers as 
 
 To put it differently, the requirement to remove nutrients from the waste stream was such a technical challenge and had such a significant impact upon our workload, our bottom line, and our exposure to project risk, that it became something we would rather avoid. How does that story sit with you? Looking back, I find it both funny and interesting, but also slightly grotesque and dated. Whatever you choose your take-home message to be, here's a final thought experiment to wrap things up: 
 
-_Imagine if your toilet technology and local sanitation service provider were transformed into an ecosan, container-based sanitation (CBS) solution; what would be the biggest obstacle; providing the service (logistics, engineering, regulation, finance… ) or changing behaviour so that users accept a different kind of toilet interface (one where they may see more poop than they saw in a WC)? And what comes first; behaviour change or a new sanitation service?_
- 
 _Imagine a future cadre of sanitation professionals with a future reaction to legislation on nutrient recycling: Instead of cheering on the news that nutrients need not be treated, removed, or recycled, they hang their heads and weep. They weep because their world has been irreparably damaged by practices that waste our resources and destroy our aquatic environment. They weep because they have the skills and the technology to capture and recycle the nutrients in our waste stream, but their government legislation does not require them to use those skills or those technologies. They weep because they know they could do better, but their world doesn’t care._
  
 Which world are we creating with our pee, with our poop?  
