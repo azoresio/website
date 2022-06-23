@@ -7,7 +7,22 @@
     <description>The Azores Blog
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Efficiency</title>
+      <dc:creator>Anthony Kilbride</dc:creator>
+      <link>https://www.azores.io/posts/efficiency</link>
+      <description>The 8th Azores blog: 
+Efficiency. The hole in the heart of SDG 6.2.</description>
+      <category>efficiency</category>
+      <category>inclusivity</category>
+      <category>waste</category>
+      <category>SDG6</category>
+      <category>financing</category>
+      <guid>https://www.azores.io/posts/efficiency</guid>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://www.azores.io/posts/efficiency/img/efficiency1.png" medium="image" type="image/png" width="578" height="289"/>
+    </item>
     <item>
       <title>Haïti: Tout pòt femen (All doors closed).</title>
       <dc:creator>Anthony Kilbride</dc:creator>

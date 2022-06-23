@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -55,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -76,7 +77,7 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
@@ -84,50 +85,55 @@ code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
+
   <!--radix_placeholder_meta_tags-->
-<title>Azores - Unity in Vision: Kentucky Fried Development</title>
+<title>Azores - Unity in Vision: Efficiency</title>
 
-<meta property="description" itemprop="description" content="The second Azores blog: &#10;A shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians."/>
+<meta property="description" itemprop="description" content="The 8th Azores blog: &#10;Efficiency. The hole in the heart of SDG 6.2."/>
 
-<link rel="canonical" href="https://www.azores.io/posts/kentucky-fried-development/"/>
+<link rel="canonical" href="https://www.azores.io/posts/efficiency/"/>
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-06-02"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-06-02"/>
+<meta property="article:published" itemprop="datePublished" content="2022-06-23"/>
+<meta property="article:created" itemprop="dateCreated" content="2022-06-23"/>
 <meta name="article:author" content="Anthony Kilbride"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Azores - Unity in Vision: Kentucky Fried Development"/>
+<meta property="og:title" content="Azores - Unity in Vision: Efficiency"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="The second Azores blog: &#10;A shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians."/>
-<meta property="og:url" content="https://www.azores.io/posts/kentucky-fried-development/"/>
-<meta property="og:image" content="https://www.azores.io/posts/kentucky-fried-development/img/peter-morgan.jpg"/>
+<meta property="og:description" content="The 8th Azores blog: &#10;Efficiency. The hole in the heart of SDG 6.2."/>
+<meta property="og:url" content="https://www.azores.io/posts/efficiency/"/>
+<meta property="og:image" content="https://www.azores.io/posts/efficiency/img/efficiency1.png"/>
+<meta property="og:image:width" content="578"/>
+<meta property="og:image:height" content="289"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Azores - Unity in Vision"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary_large_image"/>
-<meta property="twitter:title" content="Azores - Unity in Vision: Kentucky Fried Development"/>
-<meta property="twitter:description" content="The second Azores blog: &#10;A shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians."/>
-<meta property="twitter:url" content="https://www.azores.io/posts/kentucky-fried-development/"/>
-<meta property="twitter:image" content="https://www.azores.io/posts/kentucky-fried-development/img/peter-morgan.jpg"/>
+<meta property="twitter:title" content="Azores - Unity in Vision: Efficiency"/>
+<meta property="twitter:description" content="The 8th Azores blog: &#10;Efficiency. The hole in the heart of SDG 6.2."/>
+<meta property="twitter:url" content="https://www.azores.io/posts/efficiency/"/>
+<meta property="twitter:image" content="https://www.azores.io/posts/efficiency/img/efficiency1.png"/>
+<meta property="twitter:image:width" content="578"/>
+<meta property="twitter:image:height" content="289"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="Azores - Unity in Vision: Kentucky Fried Development"/>
-<meta name="citation_fulltext_html_url" content="https://www.azores.io/posts/kentucky-fried-development"/>
-<meta name="citation_online_date" content="2021/06/02"/>
-<meta name="citation_publication_date" content="2021/06/02"/>
+<meta name="citation_title" content="Azores - Unity in Vision: Efficiency"/>
+<meta name="citation_fulltext_html_url" content="https://www.azores.io/posts/efficiency"/>
+<meta name="citation_online_date" content="2022/06/23"/>
+<meta name="citation_publication_date" content="2022/06/23"/>
 <meta name="citation_author" content="Anthony Kilbride"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","categories","date","output","draft","citation_url","preview","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Kentucky Fried Development"]},{"type":"character","attributes":{},"value":["The second Azores blog: \nA shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Anthony Kilbride"]},{"type":"character","attributes":{},"value":["https://www.linkedin.com/in/anthony-kilbride-9589367a/"]}]}]},{"type":"character","attributes":{},"value":["international development","Haiti","failure"]},{"type":"character","attributes":{},"value":["2021-06-02"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["https://www.azores.io/posts/kentucky-fried-development"]},{"type":"character","attributes":{},"value":["img/peter-morgan.jpg"]},{"type":"character","attributes":{},"value":["https://www.azores.io/posts/kentucky-fried-development/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","output","draft","citation_url","preview","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Efficiency"]},{"type":"character","attributes":{},"value":["The 8th Azores blog: \nEfficiency. The hole in the heart of SDG 6.2."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Anthony Kilbride"]},{"type":"character","attributes":{},"value":["https://www.linkedin.com/in/anthony-kilbride-9589367a/"]}]}]},{"type":"character","attributes":{},"value":["06-23-2022"]},{"type":"character","attributes":{},"value":["efficiency","inclusivity","waste","SDG6","financing"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["https://www.azores.io/posts/efficiency"]},{"type":"character","attributes":{},"value":["img/efficiency1.png"]},{"type":"character","attributes":{},"value":["https://www.azores.io/posts/efficiency/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["img/peter-morgan.jpg","kentucky-fried-development_files/anchor-4.2.2/anchor.min.js","kentucky-fried-development_files/bowser-1.9.3/bowser.min.js","kentucky-fried-development_files/distill-2.2.21/template.v2.js","kentucky-fried-development_files/header-attrs-2.7/header-attrs.js","kentucky-fried-development_files/jquery-1.11.3/jquery.min.js","kentucky-fried-development_files/popper-2.6.0/popper.min.js","kentucky-fried-development_files/tippy-6.2.7/tippy-bundle.umd.min.js","kentucky-fried-development_files/tippy-6.2.7/tippy-light-border.css","kentucky-fried-development_files/tippy-6.2.7/tippy.css","kentucky-fried-development_files/tippy-6.2.7/tippy.umd.min.js","kentucky-fried-development_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["efficiency_files/anchor-4.2.2/anchor.min.js","efficiency_files/bowser-1.9.3/bowser.min.js","efficiency_files/distill-2.2.21/template.v2.js","efficiency_files/header-attrs-2.11/header-attrs.js","efficiency_files/jquery-3.6.0/jquery-3.6.0.js","efficiency_files/jquery-3.6.0/jquery-3.6.0.min.js","efficiency_files/jquery-3.6.0/jquery-3.6.0.min.map","efficiency_files/popper-2.6.0/popper.min.js","efficiency_files/tippy-6.2.7/tippy-bundle.umd.min.js","efficiency_files/tippy-6.2.7/tippy-light-border.css","efficiency_files/tippy-6.2.7/tippy.css","efficiency_files/tippy-6.2.7/tippy.umd.min.js","efficiency_files/webcomponents-2.0.0/webcomponents.js","img/5-step-process.png","img/efficiency1.png","img/framework.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2118,8 +2124,8 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/header-attrs-2.7/header-attrs.js"></script>
-  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2139,7 +2145,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Kentucky Fried Development","description":"The second Azores blog: \nA shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians.","authors":[{"author":"Anthony Kilbride","authorURL":"https://www.linkedin.com/in/anthony-kilbride-9589367a/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-02T00:00:00.000+02:00","citationText":"Kilbride, 2021"}
+{"title":"Efficiency","description":"The 8th Azores blog: \nEfficiency. The hole in the heart of SDG 6.2.","authors":[{"author":"Anthony Kilbride","authorURL":"https://www.linkedin.com/in/anthony-kilbride-9589367a/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-06-23T00:00:00.000+02:00","citationText":"Kilbride, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2165,79 +2171,259 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Kentucky Fried Development</h1>
+<h1>Efficiency</h1>
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
-  <a href="../../blog.html#category:international_development" class="dt-tag">international development</a>
-  <a href="../../blog.html#category:Haiti" class="dt-tag">Haiti</a>
-  <a href="../../blog.html#category:failure" class="dt-tag">failure</a>
+  <a href="../../blog.html#category:efficiency" class="dt-tag">efficiency</a>
+  <a href="../../blog.html#category:inclusivity" class="dt-tag">inclusivity</a>
+  <a href="../../blog.html#category:waste" class="dt-tag">waste</a>
+  <a href="../../blog.html#category:SDG6" class="dt-tag">SDG6</a>
+  <a href="../../blog.html#category:financing" class="dt-tag">financing</a>
 </div>
 <!--/radix_placeholder_categories-->
-<p><p>The second Azores blog: A shamefully funny and brutally honest exposé of development aid. WARNING: This blog post may offend vegetarians.</p></p>
+<p><p>The 8th Azores blog: Efficiency. The hole in the heart of SDG
+6.2.</p></p>
 </div>
 
 <div class="d-byline">
-  Anthony Kilbride <a href="https://www.linkedin.com/in/anthony-kilbride-9589367a/" class="uri">https://www.linkedin.com/in/anthony-kilbride-9589367a/</a> 
+  Anthony Kilbride <a
+href="https://www.linkedin.com/in/anthony-kilbride-9589367a/"
+class="uri">https://www.linkedin.com/in/anthony-kilbride-9589367a/</a> 
   
-<br/>2021-06-02
+<br/>06-23-2022
 </div>
 
 <div class="d-article">
-<div class="d-contents d-contents-float">
-<nav class="l-text toc figcaption" id="TOC">
-<h3>Contents</h3>
-<ul>
-<li><a href="#the-uncomfortable-truth">The uncomfortable truth</a></li>
-<li><a href="#inequality-goes-up-opportunity-goes-down">Inequality goes up, opportunity goes down</a></li>
-<li><a href="#be-the-change">Be The Change</a></li>
-</ul>
-</nav>
-</div>
 <script async defer data-domain="azores.io" src="https://plausible.io/js/plausible.js"></script>
 <div class="layout-chunk" data-layout="l-body">
 <div class="figure"><span id="fig:unnamed-chunk-1"></span>
-<img src="img/peter-morgan.jpg" alt="With Peter Morgan (Father of the Arborloo) in Johanesberg airport: Organic chicken." data-distill-preview=1 />
+<img src="img/efficiency1.png" alt="Image created by Anthony Kilbride (CC-BY 4.0)" width="100%" data-distill-preview=1 />
 <p class="caption">
-Figure 1: With Peter Morgan (Father of the Arborloo) in Johanesberg airport: Organic chicken.
+Figure 1: Image created by Anthony Kilbride (CC-BY 4.0)
 </p>
 </div>
 </div>
-<p>Amongst the more shameful incidents in my life was when I ate 200R worth of Kentucky Fried Chicken in Johannesburg airport. For those unfamiliar with KFC’s rand valuation in 2012, that’s a lot of chicken! A couple of large ‘buckets’ of fried chicken, with the full accomplishment of beans, fries, fried beans, and what ever else they could cram in the bucket. There must have been some coke involved too, or some other sugary beverage. The shame stills wells up inside me, nearly a decade later.</p>
-<p>Looking back, I cannot believe I was exercising free will. I was extremely jetlagged, hungry (admittedly not <em>that</em> hungry) and lured into dropping my guard by the 200 ZAR food voucher ‘redeemable only in KFC, O.R.Tambo International Airport’. The voucher was all the compensation offered to us for a 14hr flight delay. We pleaded with the airline representative for something more nourishing, more green, more wholesome, less fried. But no, a blanket KFC compensation policy was in place; we were butting up against the uncompromising sheer might of ‘the system’, and the system won. Placed before the capitalistic chicken trough, I was helpless in defeat. Over the course of the next 14 hours, as the calorific surplus expanded my waistline, I wept at my weakness, and I vowed never to patronize KFC again. I am, 9 years on, proudly still, ‘KFC-sober’.</p>
-<p>I was reminded of this story recently when helping a Haiti-based NGO to develop their WASH strategy for the next 10 years. They explained their position to me;</p>
-<blockquote>
-<p>“Our effort so far has been more like a ‘McDonald’s’ approach to development aid, whereas where we want to be is more like a ‘farm to fork’ organic approach.”</p>
-</blockquote>
-<blockquote>
-<p>“Like a nice wholesome rotisserie chicken as opposed to KFC?” - I quipped, as nine years of buried shame erupted inside me.</p>
-</blockquote>
-<blockquote>
-<p>“Yes, definitely not KFC”, came the response.</p>
-</blockquote>
-<p>What?! Do they know?! Were they there, on that day, hiding behind the oversized cardboard cutout of an anthropomorphized chicken?!</p>
-<h1 id="the-uncomfortable-truth">The uncomfortable truth</h1>
-<p>Joking aside, whilst I have come to terms with most of the dodgy nutrition decisions I made under duress, I struggle greatly with the KFC-approach to delivering development assistance that still defines much of the international development sector. I feel genuine, visceral, hang-your-head, daily shame at the wasteful and unjust practices which define the aid industry. I speak with authority on the subject of international development in Haïti because I live and breathe it; its chicken-fried stench surrounds me. If you work within it as I do, no amount of superficial spending or scrubbing can cleanse the systemic mire. The truth is undeniable if you know where to look and who to ask. For the people of Haiti however, no sleuth-like data-driven investigation is necessary to realize the truth, which is that achieving life’s basics; clean water, sanitation, food, health, education, becomes ever harder every day, and the millions of dollars of aid money that pours in every year, but for a few exceptions, changes little. The little change brought about by these millions is fragile, superficial and transient at best, divisive, cynical and manipulative at worst. ‘Sustainability’, the watch-word of the development set, remains as elusive as unicorn droppings, and those of us who are in the business of pursuing it, must shrug our shoulders and suspend disbelief, that such an ideal could ever come to pass. Such cynical words such as these must be offset with optimistic deeds, but naïveté as to the reality of the minute scale of impact and the glacial pace of change, will not help us here.</p>
-<h1 id="inequality-goes-up-opportunity-goes-down">Inequality goes up, opportunity goes down</h1>
-<p>Haïti’s population sees international development money in the plethora of ‘projects’ that litter the land like corpses. They see the white landcruisers going back and forth from airport to hotel and - like the woman I met this morning, singing with unbelievable defiance as she climbed the hill with a bucket of water balanced on her head <em>‘malere m malere, malere pa defo’</em> (‘I’m poor. I’m poor, I’m poor by default’) - they accept their lot. For her, and for her 11 million compatriots, there is no surprise at the waste, and no expectation of change. A dark cloud of apathy hangs over the island. Yes there are transcendent silver linings of hope, and despite all the suffering you will be met with warm humanity and beautiful radiant smiles if you do come to this land. Hope, however, doesn’t feed empty stomachs or stimulate young minds. But despite the failures, despite the waste, the aid money pours in. Project after project is conceived, budgeted, awarded, implemented and exited. After 4 or 5 years of flashy cars and flashy workshops, the money is gone and the greasy chicken bones of broken promises and stranded infrastructure are left behind. <em>‘malere m malere, malere pa defo’</em>.</p>
-<p>Organic chicken is no longer expected in Haïti, the best people can hope for is a whiff of KFC. An entire aid industry is propped up by the human misery and environmental destruction that has plagued this island in the Carribean since Columbus’ first footfall over 5 centuries ago. Those who profit from it, domestic and foreign, will tell you that the chicken tastes good. For those who demand a more equal distribution of organic chicken, what do we do? Well, there are those who say ‘turn off the tap!’, stop giving money to countries like Haïti if its just being wasted. This argument is blind to the existence of the powerful aid-industrial complex, ‘the system’, which benefits hugely from countries like Haïti. Turn off the system?! Good Luck! The option that remains is to fix the tap, because it leaks. Or move the tap, because its in the wrong place. Or perhaps we need to smash the tap completely and replace it with a drip irrigation system? Such abstract reasoning is not just ‘blog bluster’, it may actually prove useful in leading us to solutions to intractable problems. The search will not be easy, and free, creative thinkers will be required. Tap or no tap, some honest reflection is needed by powerful individuals and institutions deep within the bowels of the system, spurred on by strong voices of encouragement from those on the edges. Those who can be courageous enough to give a voice to the marginalized, must. Change is needed now. We cannot wait another 4 or 5 years for another myopic project which will ‘not be as bad as the last one’. Empty stomachs and young minds should never be told to wait. Carpe Diem.</p>
-<h1 id="be-the-change">Be The Change</h1>
-<p>For those of us feasting on KFC (myself included, I too am part of the system) lets ask ourselves; are we really exercising our free will? Have we become so addicted to comfortable choices that we have capitulated on the quick and easy path of least resistance; the path that demands no discipline, the path which demands no quality, the path of mediocrity. Haïti and other countries in the global south deserve better, so lets put down our collective mega bucket of fried chicken, and search for deeper nourishment.</p>
-<p>If you happen to work in the system that is the international development WASH sector, here are 3 ways to start:</p>
+<p>International Development has an efficiency problem. Too much money
+is spent, whilst not enough impact is realized. Nuances abound, of
+course, but I can comfortably single out the sanitation sector (the SDG
+6.2 sector) as having a poor track record when it comes to impact. I am
+not alone<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>. If you work in the sanitation
+sector as I do, or even the broader ‘WASH’ sector, you know exactly what
+I am talking about. This blog is about efficiency and how to achieve it.
+Note that I’m referring to efficiency with a ‘big E’, so we’re not
+talking pump curves or project management here, (although they certainly
+play their part in the big picture), but rather this blog is about the
+efficiency of financing (getting the money) and procurement (spending
+the money).</p>
+<p>A definition of efficiency would be a good place to start. I like
+this one: Efficiency is the opposite of waste. This definition is useful
+because, whereas efficiency can take on a sophisticated academic form
+(especially when wielded by economists), waste is more visceral, you
+know it when you see it. It could be the fleet of parked white
+Landcruisers with air conditioners blasting while the boss is in the
+field: waste. It could be consultants A, B, and C, who are tasked by
+donors X, Y, and Z, to ask the same questions of the same local
+stakeholders: waste. Or it could be the investments in infrastructure
+which are not, and may never be, fit for purpose: waste. It’s obviously
+a problem, so no debate is needed there, but why does it persist? And
+how can we change?</p>
+<p>Let’s call on some economists to get their answers. We’ll start with
+the 2010 OECD publication “Innovative Financing Mechanisms for the Water
+Sector”<a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a> which makes the case for innovative
+financing ‘to increase the attractiveness of the WASH sector to
+providers of commercial finance’. Essentially, the document calls on
+commercial finance to close the financing gap <a href="#fn3"
+class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.
+The keyword here is innovation. Next up is the 2017 World Bank
+publication “Easing the Transition to Commercial Finance for Sustainable
+Water and Sanitation”<a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a>. It proposes a framework with 3
+components, shown in the image below, and summarized succinctly as
+follows: It’s not just about getting more money into the sector; it’s
+about using the money efficiently. The keyword here is efficiency.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-2"></span>
+<img src="img/framework.png" alt="Water Supply and Sanitation Financing Framework. Adapted from [World Bank. 2017. Easing the Transition to Commercial Finance for Sustainable Water and Sanitation. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/182521503466225465/pdf/119048-WP-REPLACEMENT-PUBLIC.pdf)" width="100%" />
+<p class="caption">
+Figure 2: Water Supply and Sanitation Financing Framework.
+Adapted from <a
+href="https://documents1.worldbank.org/curated/en/182521503466225465/pdf/119048-WP-REPLACEMENT-PUBLIC.pdf">World
+Bank. 2017. Easing the Transition to Commercial Finance for Sustainable
+Water and Sanitation. World Bank, Washington, DC.</a>
+</p>
+</div>
+</div>
+<p>Finally, the 2016 World Bank document “Financing Options for the 2030
+Water Agenda”<a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a> proposes 5-steps, to break out of
+the unsustainable status quo, and balance the books whilst providing
+inclusive water &amp; sanitation. The 5 steps are shown in the image
+below and are summarized here:</p>
 <ol type="1">
-<li><p>Don’t plan any infrastructure unless the institutions responsible for its management are front &amp; centre of the planning process. If they’re ‘not there’ or ‘unavailable’, wait.</p></li>
-<li><p>Take the time to reflect on what you have been asked to do. Is it a good use of funds? Will it lead to sustainable change? Is it ethical? Very often, decisions and commands are made without this reflection. Whether high up or low down in an organisation’s hierarchy, you can always take time to ask the big questions.</p></li>
-<li><p>Bring others along with you. As we grow and develop and ‘climb the greasy pole’, its easy to forget that there are those who need our teaching. When executing your tasks, ask yourself ‘who can I teach?’. Capacity building is a role for everyone. Experience is of course important, but good attitude goes a long way.</p></li>
+<li>Starting point. Estimate cost &amp; revenue, define strategy.</li>
+<li>Reap efficiency gains. Reduce OPEX through efficient practices,
+systems, and technologies.</li>
+<li>Maximize existing revenues. Increase household investments, tariffs,
+taxes, transfers, and concessional finance.</li>
+<li>‘Crowd in’ commercial finance. Blend public and private finance
+after demonstrating profitable business models.</li>
+<li>Achieve SDG6 by balancing the books: CAPEX + OPEX = Revenues &amp;
+loans.</li>
 </ol>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="img/5-step-process.png" alt="Water Supply and Sanitation Financing Framework. Adapted from [World Bank. 2016. Knowledge Brief. Financing Options for the 2030 Water Agenda](https://openknowledge.worldbank.org/bitstream/handle/10986/25495/W16011.pdf?sequence=4&amp;isAllowed=y)" width="100%" />
+<p class="caption">
+Figure 3: Water Supply and Sanitation Financing Framework.
+Adapted from <a
+href="https://openknowledge.worldbank.org/bitstream/handle/10986/25495/W16011.pdf?sequence=4&amp;isAllowed=y">World
+Bank. 2016. Knowledge Brief. Financing Options for the 2030 Water
+Agenda</a>
+</p>
+</div>
+</div>
+<p>So there we have it, a roadmap to SDG6: Innovative finance coupled
+with efficient procurement and service delivery. Put differently, it’s
+not about ‘throwing money at the problem’, it about using that money
+efficiently. It’s about first plugging financial holes (addressing
+waste), and then closing the financing gap. It makes sense to me, but I
+dislike the onus placed upon recipient governments to do better, as if
+the problem starts there. If some institutions (the development banks,
+the WASH BINGOs) are asking governments and service providers to pull
+their socks up and do better, then there is first some honest reflection
+needed. My own experience is that governments in low-resource settings
+are often not as inefficient as the donors trying to help them (see
+Azores blog #2). If you are a donor advocating for greater innovation
+and efficiency, then you must lead by example and get your own house in
+order first.</p>
+<p>So what are we waiting for? What is the missing piece of the puzzle?
+How do we achieve better efficiency? The answer, I believe, is greater
+inclusivity.</p>
+<p>Inclusivity means deliberately bringing in others who are normally
+excluded. Let’s be careful here, the trap for the – as yet
+un-decolonised – WASH sector, is to view inclusivity through a saviour
+lens. It should instead be a call to action which transcends sectors,
+silos, and job descriptions: ‘You are needed!’ You, the innovators who
+dare to dream; you, the catalytic philanthropists who seed those dreams;
+you, the entrepreneurs who take on risks and try anew; you, the service
+providers who are the lifeblood pumping through your sanitation system;
+and you the public institutions who provide the vital organs of a
+sanitation system. A call for inclusion is a call for all stakeholders
+to take on the responsibility to act, share, and progress together.</p>
+<p>So, whether you are pursuing inclusive sanitation for a city (CWIS)<a
+href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a> or a Lake (LWIS)<a href="#fn7"
+class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> or
+a village (CLTS)<a href="#fn8" class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a>, inclusivity means we are all
+stakeholders, and we all have a role to play. What that role is will be
+different for every single sanitation system in the World. For example,
+a Mother in one country may need to carry her baby and her family’s
+water for 2 miles every day whilst lobbying her local representative for
+community action on public health issues like latrine access. A Mother
+in another country may only need to pay her utility bill, completely
+ignorant of the centuries old debt which has been accrued servicing the
+public infrastructure which allows her toilet to flush. These two
+examples demonstrate the inequality of our system of global health, and
+the much greater burden of responsibility, for citizens with deficient
+sanitation systems.</p>
+<p>Inclusivity was the call made by the indigenous tribes of Amazonia at
+COP26<a href="#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a> who said <em>“We are looking for
+recognition of our communities… we are asking for funding to go directly
+to the community-based organsiations so that we can benefit… our work is
+limited if we don’t have a budget”</em> In other words; where is the
+money we deserve? and how do we get it? If we want to reap efficiency
+gains, embrace inclusivity!</p>
+<p>Inclusivity was the recent call made in The Cape Town statement<a
+href="#fn10" class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a>, by researchers from low- and
+middle-income countries who want to become equal partners in
+international projects. Lyn Horn at the University of Cape Town exposes
+the core of the problem when she says, <em>“Even people and funders with
+very good intentions perhaps don’t understand how entrenched some of
+their practices and processes are”</em>. Being truly inclusive is
+difficult when we can’t even see how far we are from it.</p>
+<p>Inclusivity is the call made by The Sanitation Innovation Fund, who
+are supporting sanitation innovators in East Africa through the <a
+href="https://www.pooptank.net/home">Lake Victoria Pooptank</a>. The
+pooptank aims to get money and technical support into the hands of
+sanitation innovators who are living and working on the front lines of
+the global sanitation crisis. The Sanitation Innovation Fund is
+complementing ongoing efforts by others who share in the vision for
+Lakewide Inclusive Sanitation (LWIS) for Lake Victoria. It’s a small
+contribution to a big challenge, but it has inclusivity at its core.</p>
+<p>Rooting out waste in International Development will be a hard-fought
+battle. There are vested interests and institutional inertia which will
+take more than a handful of changemakers and some enlightened donors to
+dislodge. But dislodge it we must. Efficiency is our goal, inclusivity
+is how we get there.</p>
+<p>For practical examples of innovations in inclusive sanitation, <a
+href="https://www.pooptank.net/for-audience">please tune in and show
+your support for the Lake Victoria Pooptank on the 19th of July</a>.
+Join the movement to change how we deal with our waste; both kinds.</p>
+<p>Register here: <a href="https://www.pooptank.net/for-audience"
+class="uri">https://www.pooptank.net/for-audience</a></p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p><a
+href="https://blogs.worldbank.org/water/how-improve-water-sector-financing-developing-countries"
+class="uri">https://blogs.worldbank.org/water/how-improve-water-sector-financing-developing-countries</a><a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><a
+href="https://sswm.info/sites/default/files/reference_attachments/OECD%202010%20Innovativ%20Financing%20Mechanisms%20for%20the%20Water%20Sector.pdf"
+class="uri">https://sswm.info/sites/default/files/reference_attachments/OECD%202010%20Innovativ%20Financing%20Mechanisms%20for%20the%20Water%20Sector.pdf</a><a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p><a
+href="https://openknowledge.worldbank.org/bitstream/handle/10986/26458/114545-WP-P157523-PUBLIC-SWA-Country-Preparatory-Process-Discussion-Paper-8-Mar-17.pdf"
+class="uri">https://openknowledge.worldbank.org/bitstream/handle/10986/26458/114545-WP-P157523-PUBLIC-SWA-Country-Preparatory-Process-Discussion-Paper-8-Mar-17.pdf</a><a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p><a
+href="http://documents1.worldbank.org/curated/en/182521503466225465/pdf/119048-WP-REPLACEMENT-PUBLIC.pdf"
+class="uri">http://documents1.worldbank.org/curated/en/182521503466225465/pdf/119048-WP-REPLACEMENT-PUBLIC.pdf</a><a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p><a
+href="https://openknowledge.worldbank.org/handle/10986/25495"
+class="uri">https://openknowledge.worldbank.org/handle/10986/25495</a><a
+href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p><a
+href="https://www.worldbank.org/en/topic/sanitation/brief/citywide-inclusive-sanitation"
+class="uri">https://www.worldbank.org/en/topic/sanitation/brief/citywide-inclusive-sanitation</a><a
+href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p><a
+href="https://blogs.worldbank.org/water/protecting-lake-victoria-green-resilient-and-inclusive-future"
+class="uri">https://blogs.worldbank.org/water/protecting-lake-victoria-green-resilient-and-inclusive-future</a><a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p><a
+href="https://www.communityledtotalsanitation.org/page/clts-approach"
+class="uri">https://www.communityledtotalsanitation.org/page/clts-approach</a><a
+href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p><a
+href="https://www.youtube.com/watch?v=GpIkuJ7EZKk"
+class="uri">https://www.youtube.com/watch?v=GpIkuJ7EZKk</a><a
+href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p><a
+href="https://www.nature.com/articles/d41586-022-01604-3"
+class="uri">https://www.nature.com/articles/d41586-022-01604-3</a><a
+href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
   <p class="social_footer">
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=Kentucky%20Fried%20Development&amp;url=https%3A%2F%2Fwww.azores.io%2Fposts%2Fkentucky-fried-development%2F">
+      <a href="https://twitter.com/share?text=Efficiency&amp;url=https%3A%2F%2Fwww.azores.io%2Fposts%2Fefficiency%2F">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.azores.io%2Fposts%2Fkentucky-fried-development%2F&amp;title=Kentucky%20Fried%20Development">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.azores.io%2Fposts%2Fefficiency%2F&amp;title=Efficiency">
         <i class="fab fa-linkedin"></i>
       </a>
     </span>
@@ -2266,13 +2452,13 @@ Figure 1: With Peter Morgan (Father of the Arborloo) in Johanesberg airport: Org
 <div class="appendix-bottom">
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Kilbride (2021, June 2). Azores - Unity in Vision: Kentucky Fried Development. Retrieved from https://www.azores.io/posts/kentucky-fried-development</pre>
+  <pre class="citation-appendix short">Kilbride (2022, June 23). Azores - Unity in Vision: Efficiency. Retrieved from https://www.azores.io/posts/efficiency</pre>
   <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{kilbride2021kentucky,
+  <pre class="citation-appendix long">@misc{kilbride2022efficiency,
   author = {Kilbride, Anthony},
-  title = {Azores - Unity in Vision: Kentucky Fried Development},
-  url = {https://www.azores.io/posts/kentucky-fried-development},
-  year = {2021}
+  title = {Azores - Unity in Vision: Efficiency},
+  url = {https://www.azores.io/posts/efficiency},
+  year = {2022}
 }</pre>
 </div>
 <!--/radix_placeholder_appendices-->
